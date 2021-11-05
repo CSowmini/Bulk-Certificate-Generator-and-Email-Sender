@@ -12,8 +12,8 @@ import smtplib
 </pre>
 
 Having understood basic structure and general implementation of email processing with python for simple text emails, 
-now we can move forward and deal with the MIME messages in automation of emails. For complex MIME messages we need to 
-import the MIME library, as follows:
+now we can move forward and deal with the MIME messages in automation of emails. 
+For complex MIME messages we need to import the MIME library, as follows:
 <pre>
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
